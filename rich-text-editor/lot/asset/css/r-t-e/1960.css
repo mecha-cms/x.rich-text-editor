@@ -1,0 +1,27 @@
+.rich-text-editor {border-color:#000}
+.rich-text-editor-tool {
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  background:#000;
+  border-bottom:1px solid #000;
+  color:#fff;
+  visibility:visible;
+  opacity:1;
+}
+.rich-text-editor-view,
+.rich-text-editor-source,
+.rich-text-editor-d {margin-top:2em}
+.rich-text-editor-d {top:1px}
+.rich-text-editor-source {background:#ddb}
+.rich-text-editor-tool a {
+  background:none;
+  color:inherit;
+}
+.rich-text-editor-d input {color:#00a}
+.rich-text-editor-tool a:focus,
+.rich-text-editor-tool a:hover {
+  background:#00a;
+  color:inherit;
+}
