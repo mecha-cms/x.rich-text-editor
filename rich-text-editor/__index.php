@@ -13,7 +13,6 @@ Hook::set('panel.js', function($__content) {
 Hook::set('on.panel.ready', function() {
     $__id = Path::B(__DIR__);
     $__state = Config::get('page.editor', "");
-    Config::set('panel.f.page.editors.' . $__id, 'Rich Text Editor');
     if ($__state === $__id) {
         Asset::set(__DIR__ . DS . 'lot' . DS . 'asset' . DS . 'css' . DS . 'r-t-e.min.css', 20);
         if ($__s = Extend::state('panel', 'shield')) {
