@@ -8,7 +8,7 @@ version: 0.0.1
 
 This is the official rich text editor extension for Mecha.
 
-This extension works only for pages with `type` of `HTML`. Go to the site’s state editor then change the value of _Editor_ field in the _Site › Page_ group with _Rich Text Editor_.
+This extension works only for pages with `type` of `HTML`. Go to the site’s state editor then change the value of _Editor_ field in the _Common_ tab with _Rich Text Editor_.
 
 **Project:** <https://tovic.github.io/rich-text-editor>
 
