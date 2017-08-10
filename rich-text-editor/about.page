@@ -4,6 +4,7 @@ description: A rich text editor that is designed to accept limited set of inline
 author: Taufik Nurrohman
 type: Markdown
 version: 0.0.1
+dependency: {"extension":["asset"]}
 ...
 
 This is the official rich text editor extension for Mecha.
