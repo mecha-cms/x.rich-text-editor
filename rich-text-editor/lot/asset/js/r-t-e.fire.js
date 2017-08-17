@@ -1,9 +1,9 @@
 (function($) {
     if (!$) return;
-    var forms = $.forms,
-        lot = forms.$,
-        config = $.RTE || {},
-        CM = forms.CM || {},
+    var form = $.__form__,
+        lot = form.$,
+        config = $config.RTE || {},
+        CM = form.CM || {},
         i, j, k, l;
     for (i in CM) {
         for (j in CM[i]) {
@@ -15,13 +15,13 @@
             }
         }
     }
-    forms.RTE = {};
+    form.RTE = {};
     for (i in lot) {
-        forms.RTE[i] = {};
+        form.RTE[i] = {};
         for (j in lot[i]) {
             k = lot[i][j];
             if (k.nodeName.toLowerCase() === 'textarea' && k.classList.contains('editor') && k.getAttribute('data-type') === 'HTML') {
-                forms.RTE[i][j] = new RTE(k, config);
+                form.RTE[i][j] = new RTE(k, config);
             }
         }
     }
