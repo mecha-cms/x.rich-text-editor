@@ -3,7 +3,7 @@ title: Rich Text Editor
 description: A rich text editor that is designed to accept limited set of inline HTML tags only.
 author: Taufik Nurrohman
 type: Markdown
-version: 1.1.0
+version: 1.1.1
 
 dependency:
   extension:
